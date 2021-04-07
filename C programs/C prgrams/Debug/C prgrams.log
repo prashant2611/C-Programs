@@ -1,0 +1,85 @@
+﻿Build started 3/4/2021 11:50:48 PM.
+     1>Project "F:\Coding\Interview Practice\C prgrams\C prgrams\C prgrams.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\C prgrams.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "recursion-count_digit.cpp"
+         recursion-count_digit.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Coding\Interview Practice\C prgrams\Debug\C prgrams.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\C prgrams.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Coding\Interview Practice\C prgrams\Debug\C prgrams.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Coding\Interview Practice\C prgrams\Debug\C prgrams.lib" /MACHINE:X86 "Debug\C prgrams.exe.embed.manifest.res"
+         "Debug\digit-count.obj"
+         "Debug\digit-largest.obj"
+         "Debug\digit-reverse.obj"
+         "Debug\digit-smallest.obj"
+         "Debug\digit-sum.obj"
+         Debug\factorial.obj
+         Debug\fibbonacci.obj
+         Debug\Main.obj
+         "Debug\number-generic root.obj"
+         "Debug\pattern-1.obj"
+         "Debug\pattern-10.obj"
+         "Debug\pattern-11.obj"
+         "Debug\pattern-12.obj"
+         "Debug\pattern-13.obj"
+         "Debug\pattern-14.obj"
+         "Debug\pattern-15.obj"
+         "Debug\pattern-16.obj"
+         "Debug\pattern-17.obj"
+         "Debug\pattern-18.obj"
+         "Debug\pattern-19.obj"
+         "Debug\pattern-2.obj"
+         "Debug\pattern-20.obj"
+         "Debug\pattern-21.obj"
+         "Debug\pattern-22.obj"
+         "Debug\pattern-23.obj"
+         "Debug\pattern-3.obj"
+         "Debug\pattern-4.obj"
+         "Debug\pattern-5.obj"
+         "Debug\pattern-6.obj"
+         "Debug\pattern-7.obj"
+         "Debug\pattern-8.obj"
+         "Debug\pattern-9.obj"
+         Debug\prime.obj
+         "Debug\recursion-count_digit.obj"
+         "Debug\recursion-number_decresing.obj"
+         "Debug\recursion-pattern2.obj"
+         "Debug\recursion-pattern3.obj"
+         "Debug\recursion-print_star.obj"
+         "Debug\string-char_first_occurance.obj"
+         "Debug\string-char_last_occurance.obj"
+         "Debug\string-compair.obj"
+         "Debug\string-concat.obj"
+         "Debug\string-copy.obj"
+         "Debug\string-copy_to_number.obj"
+         "Debug\string-countWords.obj"
+         "Debug\string-count_small_chapital_digits.obj"
+         "Debug\string-count_small_char.obj"
+         "Debug\string-lastword.obj"
+         "Debug\string-length.obj"
+         "Debug\string-length_of_firstword_withoutLoopBody.obj"
+         "Debug\string-no_char.obj"
+         "Debug\string-occurance_of_char.obj"
+         "Debug\string-occurance_of_word.obj"
+         "Debug\string-palindrome.obj"
+         "Debug\string-palindrome2.obj"
+         "Debug\string-reverse.obj"
+         "Debug\string-reversecopy.obj"
+         "Debug\string-strlen_withoutLoop.obj"
+         "Debug\string-toggle.obj"
+         "Debug\string-white_space.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\C prgrams.exe.embed.manifest" /manifest "Debug\C prgrams.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         C prgrams.vcxproj -> F:\Coding\Interview Practice\C prgrams\Debug\C prgrams.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\C prgrams.unsuccessfulbuild".
+         Touching "Debug\C prgrams.lastbuildstate".
+     1>Done Building Project "F:\Coding\Interview Practice\C prgrams\C prgrams\C prgrams.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.05

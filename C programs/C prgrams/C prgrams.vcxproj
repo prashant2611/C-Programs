@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EF4B8DCF-B7DA-4DA7-8963-76C740F40D3D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Cprgrams</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h" />
+    <ClInclude Include="string-practice.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="digit-count.cpp" />
+    <ClCompile Include="digit-largest.cpp" />
+    <ClCompile Include="digit-reverse.cpp" />
+    <ClCompile Include="digit-smallest.cpp" />
+    <ClCompile Include="digit-sum.cpp" />
+    <ClCompile Include="factorial.cpp" />
+    <ClCompile Include="fibbonacci.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="number-generic root.cpp" />
+    <ClCompile Include="pattern-1.cpp" />
+    <ClCompile Include="pattern-10.cpp" />
+    <ClCompile Include="pattern-11.cpp" />
+    <ClCompile Include="pattern-12.cpp" />
+    <ClCompile Include="pattern-13.cpp" />
+    <ClCompile Include="pattern-14.cpp" />
+    <ClCompile Include="pattern-15.cpp" />
+    <ClCompile Include="pattern-16.cpp" />
+    <ClCompile Include="pattern-17.cpp" />
+    <ClCompile Include="pattern-18.cpp" />
+    <ClCompile Include="pattern-19.cpp" />
+    <ClCompile Include="pattern-2.cpp" />
+    <ClCompile Include="pattern-20.cpp" />
+    <ClCompile Include="pattern-21.cpp" />
+    <ClCompile Include="pattern-22.cpp" />
+    <ClCompile Include="pattern-23.cpp" />
+    <ClCompile Include="pattern-3.cpp" />
+    <ClCompile Include="pattern-4.cpp" />
+    <ClCompile Include="pattern-5.cpp" />
+    <ClCompile Include="pattern-6.cpp" />
+    <ClCompile Include="pattern-7.cpp" />
+    <ClCompile Include="pattern-8.cpp" />
+    <ClCompile Include="pattern-9.cpp" />
+    <ClCompile Include="prime.cpp" />
+    <ClCompile Include="recursion-count_digit.cpp" />
+    <ClCompile Include="recursion-number_decresing.cpp" />
+    <ClCompile Include="recursion-pattern2.cpp" />
+    <ClCompile Include="recursion-pattern3.cpp" />
+    <ClCompile Include="recursion-print_star.cpp" />
+    <ClCompile Include="string-char_first_occurance.cpp" />
+    <ClCompile Include="string-char_last_occurance.cpp" />
+    <ClCompile Include="string-compair.cpp" />
+    <ClCompile Include="string-concat.cpp" />
+    <ClCompile Include="string-copy.cpp" />
+    <ClCompile Include="string-copy_to_number.cpp" />
+    <ClCompile Include="string-countWords.cpp" />
+    <ClCompile Include="string-count_small_chapital_digits.cpp" />
+    <ClCompile Include="string-count_small_char.cpp" />
+    <ClCompile Include="string-lastword.cpp" />
+    <ClCompile Include="string-length.cpp" />
+    <ClCompile Include="string-length_of_firstword_withoutLoopBody.cpp" />
+    <ClCompile Include="string-no_char.cpp" />
+    <ClCompile Include="string-occurance_of_char.cpp" />
+    <ClCompile Include="string-occurance_of_word.cpp" />
+    <ClCompile Include="string-palindrome.cpp" />
+    <ClCompile Include="string-palindrome2.cpp" />
+    <ClCompile Include="string-practice.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</MinimalRebuild>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Async</ExceptionHandling>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</MinimalRebuild>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Async</ExceptionHandling>
+    </ClCompile>
+    <ClCompile Include="string-reverse.cpp" />
+    <ClCompile Include="string-reversecopy.cpp" />
+    <ClCompile Include="string-strlen_withoutLoop.cpp" />
+    <ClCompile Include="string-toggle.cpp" />
+    <ClCompile Include="string-white_space.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="string-practice.resx">
+      <DependentUpon>string-practice.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
